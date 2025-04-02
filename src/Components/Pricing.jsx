@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Button from "../Reusable Components/Button";
 import PriceCard from "../Reusable Components/PriceCard";
-import { monthlyPlanDetails } from "../JsonData/pricingData";
-import { yearlyPlanDetails } from "../JsonData/pricingData";
+import { monthlyPlanDetails, yearlyPlanDetails } from "../JsonData/pricingData";
 
 const Pricing = () => {
   const [activeTab, setActiveTab] = useState(1);
