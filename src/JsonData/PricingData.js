@@ -1,3 +1,4 @@
+// Ensure the file is properly exported as a module
 export const monthlyPlanDetails = [
     {
       plan_type: "Basic Plan",
